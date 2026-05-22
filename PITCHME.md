@@ -8,10 +8,6 @@ paginate: true
 
 ## Time
 
-<!-- ### Capacitors, Delay, Oscillation -->
-
-<!-- ![bg contain right](assets/capacitor-closeup.jpg) -->
-
 ---
 
 # Goal For Today
@@ -21,11 +17,10 @@ By the end of today you will:
 - Understand what capacitors do
 - Learn how capacitors interact with time
 - Build an LED delay and fade timer using an RC circuit
-- Explore charging and discharging curves
 - Build an astable multivibrator oscillator
 - Connect timing circuits to real computer hardware
 
-<!-- ![bg contain right](assets/capacitor-bank.jpg) -->
+![bg contain right](assets/pcb-capacitors.jpg)
 
 ---
 
@@ -39,6 +34,8 @@ Yesterday we learned:
 - Computers use binary ON/OFF states
 - Billions of transistors power modern CPUs
 
+![bg contain right](assets/transistor.jpg)
+
 ---
 
 # Review From Day 1
@@ -51,6 +48,8 @@ We also learned:
 - Ohm's Law: **V = I × R**
 - Multimeters help us debug circuits
 
+![bg contain right](assets/multimeter-tutorial.jpg)
+
 ---
 
 # Today
@@ -60,7 +59,7 @@ Today we add a new idea: **TIME**
 - Some electronic components respond instantly.
 - Others change slowly over time.
 
-<!-- ![bg contain right](assets/clock.gif) -->
+![bg contain right](assets/time-circuit-bttf.webp)
 
 ---
 
@@ -72,6 +71,8 @@ Today we add a new idea: **TIME**
 4. Measure timing using RC circuits
 5. Build an astable multivibrator oscillator
 6. Connect oscillators to computing systems
+
+![bg contain right](assets/capacitor-types.webp)
 
 ---
 
@@ -113,9 +114,6 @@ One of Franklin's favorite experiments was the "circle shock." In the circle sho
 Franklin developed this machine to generate static electricity.
 
 -->
-
----
-
 
 ---
 
@@ -166,8 +164,6 @@ He actually mistaked that electricity flowed positive to negative (which is wron
 
 # Why do we need to store a charge?
 
-Computers and circuits often need to store a charge
-
 - Camera flashes
 - Audio systems
 - Phone chargers
@@ -177,7 +173,7 @@ Computers and circuits often need to store a charge
 - DRAM memory
 - Timing circuits
 
-<!-- TODO: image -->
+![bg contain right](assets/camera-flash.jpg)
 
 ---
 
@@ -201,9 +197,6 @@ Think of it like:
 
 -->
 
-<!-- TODO: image -->
-<!-- ![bg contain right](assets/capacitor-diagram.png) -->
-
 [Video: Capacitors Explained](https://www.youtube.com/watch?v=X4EUwTwZ110)
 
 ---
@@ -216,7 +209,8 @@ Capacitors have:
 - An insulating material between them
 - As charge builds voltage across the capacitor increases
 - *Some* capacitors have polarity
-<!-- ![bg contain right](assets/capacitor-cross-section.png) -->
+
+![bg contain right](assets/basics-capacitor-thumbnail.png)
 
 ---
 
@@ -224,12 +218,29 @@ Capacitors have:
 
 Capacitance is measured in **Farads (F)**
 
-- microfarad (μF)
-- nanofarad (nF)
-- picofarad (pF)
+- microfarad (μF,	`0.000001F`)
+- nanofarad (nF, `0.000000001F`)
+- picofarad (pF, `0.000000000001F`)
 
 <!-- Named after Faraday -->
-<!-- ![bg contain right](assets/capacitors-variety.jpg) -->
+
+---
+
+# RC Circuit
+
+- A resistor + capacitor together form an: **RC Circuit**
+- The resistor controls how fast the capacitor charges/discharges.
+
+The timing behavior is controlled by `τ = R × C`
+
+Where:
+
+- R = resistance
+- C = capacitance
+- τ (tau) = time constant
+
+Larger resistor = slower
+Larger capacitor = slower
 
 ---
 
@@ -240,9 +251,7 @@ When charging:
 - voltage rises gradually
 - current decreases gradually
 
-This creates an exponential curve.
-
-<!-- ![bg contain right](assets/capacitor-charging-curve.png) -->
+![bg contain right](assets/capacitor-charging.jpg)
 
 <!-- INSTRUCTOR NOTES:
 
@@ -264,18 +273,8 @@ When discharging:
 
 - stored energy leaves the capacitor
 - voltage falls gradually
-- LED brightness fades over time
 
-<!-- ![bg contain right](assets/capacitor-discharging-curve.png) -->
-
----
-
-# RC Circuit
-
-- A resistor + capacitor together form an: **RC Circuit**
-- The resistor controls how fast the capacitor charges/discharges.
-
-<!-- ![bg contain right](assets/rc-circuit.png) -->
+![bg contain right](assets/capacitor-discharging.jpg)
 
 ---
 
@@ -295,7 +294,7 @@ Observe:
 
 -->
 
-<!-- ![bg contain right](assets/led-fade.gif) -->
+<!-- TODO: gif -->
 
 ---
 
@@ -308,22 +307,7 @@ Observe:
 
 This is stored electrical energy over time.
 
----
-
-# Time Constant
-
-The timing behavior is controlled by:
-
-# τ = R × C
-
-Where:
-
-- R = resistance
-- C = capacitance
-- τ (tau) = time constant
-
-Larger resistor = slower
-Larger capacitor = slower
+<!-- TODO: image -->
 
 ---
 
@@ -347,13 +331,17 @@ Use the multimeter to:
 - observe discharging voltage
 - compare capacitor sizes
 
+![bg contain right](assets/measure-capacitance.jpg)
+
 ---
 
 # Lab Breakout #1
 
 ## RC LED Fade + Delay Timer Circuits
 
-Goal: Build an LED fade/delay circuit.
+**Goal**: Build an LED fade/delay circuit.
+
+<!-- 
 
 Try changing:
 
@@ -365,7 +353,9 @@ Try changing:
 Measure:
 
 - fade time
-- capacitor voltage
+- capacitor voltage 
+
+-->
 
 Start in Tinkercad, then build physically.
 
@@ -391,9 +381,8 @@ Can you:
 
 # Capacitors + Transistors
 
-Yesterday: transistors controlled switching
-
-Today: capacitors control timing
+**Yesterday**: *transistors* controlled switching
+**Today**: *capacitors* control timing
 
 Together they create:
 
@@ -401,6 +390,8 @@ Together they create:
 - clocks
 - timers
 - memory systems
+
+![bg contain right](assets/oscilloscope.jpeg)
 
 ---
 
@@ -416,9 +407,7 @@ Examples:
 - CPU clocks
 - radio signals
 
-<!-- TODO: measured in Hz? -->
-
-<!-- ![bg contain right](assets/blinking-led.gif) -->
+![bg contain right](assets/clock-cpu.png)
 
 ---
 
@@ -432,9 +421,17 @@ Computers need clocks. A clock signal tells circuits:
 
 Without timing, CPUs cannot coordinate operations.
 
+<!-- INSTRUCTOR NOTES:
+
+measured in Hz
+
+1 Hertz = 1 cycle per second
+
 Modern processors operate at billions of cycles per second (3 GHz = 3 billion oscillations per second)
 
-<!-- ![bg contain right](assets/cpu-clock.jpg) -->
+-->
+
+![bg contain right](assets/clock-speed-intel.avif)
 
 ---
 
@@ -449,13 +446,17 @@ The capacitors repeatedly:
 - discharge
 - switch sides
 
+![bg contain right](assets/astable-multivibrator-flow.gif)
+
+<!-- TODO: image -->
+
+<!--
+
 Observe:
 
 - alternating LEDs
 - timing changes
 - capacitor charge/discharge behavior
-
-<!--
 
 Questions:
 
@@ -480,17 +481,13 @@ If your circuit does NOT work:
 
 Timing circuits can fail in subtle ways.
 
-<!-- ![bg contain right](assets/debugging.gif) -->
-
 ---
 
 # Lab Breakout #2
 
 ## Astable Multivibrator
 
-Goal:
-
-Build a two-transistor blinking LED oscillator.
+**Goal**: Build a two-transistor blinking LED oscillator.
 
 Try:
 
@@ -498,6 +495,8 @@ Try:
 - changing resistor values
 - mismatched timing components
 - measuring blink frequency
+
+![bg contain right](assets/astable-multivibrator.gif)
 
 ---
 
