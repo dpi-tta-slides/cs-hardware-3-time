@@ -166,13 +166,18 @@ He actually mistaked that electricity flowed positive to negative (which is wron
 
 # Why do we need to store a charge?
 
-Computers and Circuits often need to store a charge
+Computers and circuits often need to store a charge
 
-- camera flash
-- dram memory
-- timing / rhythm
-- fade in / out
-- audio tuning
+- Camera flashes
+- Audio systems
+- Phone chargers
+- Power supplies
+- Motherboards
+- WiFi radios
+- DRAM memory
+- Timing circuits
+
+<!-- TODO: image -->
 
 ---
 
@@ -196,6 +201,7 @@ Think of it like:
 
 -->
 
+<!-- TODO: image -->
 <!-- ![bg contain right](assets/capacitor-diagram.png) -->
 
 [Video: Capacitors Explained](https://www.youtube.com/watch?v=X4EUwTwZ110)
@@ -206,25 +212,17 @@ Think of it like:
 
 Capacitors have:
 
-- two conductive plates
-- an insulating material between them
-
-As charge builds:
-
-- voltage across the capacitor increases
-- current flow changes over time
-
+- Two conductive plates
+- An insulating material between them
+- As charge builds voltage across the capacitor increases
+- *Some* capacitors have polarity
 <!-- ![bg contain right](assets/capacitor-cross-section.png) -->
 
 ---
 
 # Units
 
-Capacitance is measured in:
-
-# Farads (F)
-
-Common values:
+Capacitance is measured in **Farads (F)**
 
 - microfarad (μF)
 - nanofarad (nF)
@@ -232,23 +230,6 @@ Common values:
 
 <!-- Named after Faraday -->
 <!-- ![bg contain right](assets/capacitors-variety.jpg) -->
-
----
-
-# Polarized Capacitors
-
-Some capacitors have polarity.
-
-Electrolytic capacitors:
-
-- positive (+)
-- negative (-)
-
-Connecting backwards can damage them.
-
-<!-- ![bg contain right](assets/electrolytic-capacitor-polarity.png) -->
-
-
 
 ---
 
@@ -298,12 +279,9 @@ When discharging:
 
 ---
 
-<!-- Demo charging capacitor, then adding an led? -->
-
----
-
 # Demo: LED Fade Circuit
 
+<!-- Demo charging capacitor, then adding an led? -->
 We will build a simple capacitor-powered LED fade circuit.
 
 <!--
@@ -357,59 +335,6 @@ Larger capacitor = slower
 | Bigger capacitor | More stored charge |
 | Smaller resistor | Faster charging |
 | Smaller capacitor | Faster fading |
-
----
-
-# Real World Examples
-
-Capacitors are everywhere:
-
-- Camera flashes
-- Audio systems
-- Phone chargers
-- Power supplies
-- Motherboards
-- WiFi radios
-- DRAM memory
-- Timing circuits
-
-<!-- ![bg contain right](assets/motherboard-capacitors.jpg) -->
-
-<!-- ---
-
-# Why Motherboards Use Capacitors
-
-Capacitors help:
-
-- smooth voltage
-- reduce electrical noise
-- stabilize CPU power
-- handle sudden current spikes
-
-Without capacitors computers become unstable. -->
-
-<!-- ![bg contain right](assets/motherboard-closeup.jpg) -->
-
-<!-- 
-
----
-
-# DRAM Memory
-
-Dynamic RAM stores bits using tiny capacitors.
-
-Each capacitor:
-
-- charged = 1
-- discharged = 0
-
-But capacitors slowly leak charge.
-
-So DRAM must constantly refresh. 
-
--->
-
-<!-- ![bg contain right](assets/ram-closeup.jpg) -->
 
 ---
 
