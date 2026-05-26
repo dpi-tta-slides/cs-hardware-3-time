@@ -452,8 +452,6 @@ The capacitors repeatedly:
 
 ![bg contain right](assets/astable-multivibrator-flow.gif)
 
-<!-- TODO: image -->
-
 <!--
 
 Observe:
