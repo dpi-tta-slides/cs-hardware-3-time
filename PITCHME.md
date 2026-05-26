@@ -162,21 +162,6 @@ He actually mistaked that electricity flowed positive to negative (which is wron
 
 ---
 
-# Why do we need to store a charge?
-
-- Camera flashes
-- Audio systems
-- Phone chargers
-- Power supplies
-- Motherboards
-- WiFi radios
-- DRAM memory
-- Timing circuits
-
-![bg contain right](assets/camera-flash.jpg)
-
----
-
 # What Is A Capacitor?
 
 A capacitor stores electrical energy in an electric field.
@@ -198,6 +183,21 @@ Think of it like:
 -->
 
 [Video: Capacitors Explained](https://www.youtube.com/watch?v=X4EUwTwZ110)
+
+---
+
+# Why do we need to store a charge?
+
+- Camera flashes
+- Audio systems
+- Phone chargers
+- Power supplies
+- Motherboards
+- WiFi radios
+- DRAM memory
+- Timing circuits
+
+![bg contain right](assets/camera-flash.jpg)
 
 ---
 
@@ -224,23 +224,29 @@ Capacitance is measured in **Farads (F)**
 
 <!-- Named after Faraday -->
 
+![bg contain right](assets/capacitor-symbols.webp)
+
 ---
 
 # RC Circuit
-
-- A resistor + capacitor together form an: **RC Circuit**
-- The resistor controls how fast the capacitor charges/discharges.
 
 The timing behavior is controlled by `τ = R × C`
 
 Where:
 
-- R = resistance
-- C = capacitance
-- τ (tau) = time constant
+- **R** = resistance
+- **C** = capacitance
+- *τ* (tau) = time constant
+
+<!-- INSTRUCTOR NOTES
+
+- A resistor + capacitor together form an: **RC Circuit**
+- The resistor controls how fast the capacitor charges/discharges. 
 
 Larger resistor = slower
 Larger capacitor = slower
+
+-->
 
 ---
 
@@ -278,39 +284,6 @@ When discharging:
 
 ---
 
-# Demo: LED Fade Circuit
-
-<!-- Demo charging capacitor, then adding an led? -->
-We will build a simple capacitor-powered LED fade circuit.
-
-<!--
-
-Observe:
-
-- LED slowly fades out
-- capacitor stores energy briefly
-- resistor changes fade speed
-- capacitor blocks dc
-
--->
-
-<!-- TODO: gif -->
-
----
-
-# What Is Happening?
-
-1. Capacitor charges from the battery
-2. Battery disconnects
-3. Capacitor releases stored energy
-4. LED slowly dims
-
-This is stored electrical energy over time.
-
-<!-- TODO: image -->
-
----
-
 # Intuition
 
 | Component | Effect |
@@ -320,62 +293,91 @@ This is stored electrical energy over time.
 | Smaller resistor | Faster charging |
 | Smaller capacitor | Faster fading |
 
+[Visualization](https://mechsimulator.com/tools/rc-circuit/)
+
 ---
 
 # Demo: Measuring Capacitors
 
-Use the multimeter to:
-
-- measure capacitance (if supported)
-- observe charging voltage
-- observe discharging voltage
-- compare capacitor sizes
+Use the multimeter to measure capacitance (if supported)
 
 ![bg contain right](assets/measure-capacitance.jpg)
 
 ---
 
-# Lab Breakout #1
+# Demo: RC Timer Circuits
 
-## RC LED Fade + Delay Timer Circuits
+Let's build some resistor capacitor LED circuits and observe their behavior.
 
-**Goal**: Build an LED fade/delay circuit.
+<!--
 
-<!-- 
-
-Try changing:
-
-- resistor values
-- capacitor values
-- LED color
-- battery voltage
-
-Measure:
-
-- fade time
-- capacitor voltage 
+Be careful not to short the battery or the LED
 
 -->
-
-Start in Tinkercad, then build physically.
-
-<!-- 
 
 ---
 
-TODO: move to lab?
+# Demo: Capacitive Coupling
 
-# Challenge Ideas
+<!-- ![contain](assets/rc-led-fade-out.png) -->
 
-Can you:
+![bg contain right](assets/capacitive-coupling-breadboard.png)
 
-- make the LED stay on longer?
-- make it blink faster?
-- make two LEDs alternate?
-- create a soft fade-in effect?
-- make a pushbutton delay? 
+---
+
+# Demo: Capacitive Coupling
+
+
+![bg contain right](assets/capacitive-coupling-schematic.png)
+
+---
+
+# Demo: Capacitive Coupling
+
+
+![bg contain right](assets/capacitive-coupling-graph.png)
+
+<!-- INSTRUCTOR NOTES:
+
+This phenomena can be helpful with amplifiers and components that require a brief spike in voltage as a trigger
 
 -->
+
+---
+
+# Lab Breakout #1
+
+## Capacitive Coupling Circuit
+
+---
+
+# Demo: Smoothing Capacitor
+
+![bg contain right](assets/smoothing-capacitor-breadboard.png)
+
+---
+
+# Demo: Smoothing Capacitor
+
+![bg contain right](assets/smoothing-capacitor-schematic.png)
+
+---
+
+# Demo: Smoothing Capacitor
+
+![bg contain right](assets/sound-wave-before-after-smoothing-capacitor.png)
+
+<!-- INSTRUCTOR NOTES:
+
+Reduce power supply ripple and dirty audio signals
+
+-->
+
+---
+
+# Lab Breakout #2
+
+## Smoothing Circuit
 
 ---
 
@@ -428,6 +430,8 @@ measured in Hz
 1 Hertz = 1 cycle per second
 
 Modern processors operate at billions of cycles per second (3 GHz = 3 billion oscillations per second)
+
+it's also how sound/music works!
 
 -->
 
@@ -483,11 +487,13 @@ Timing circuits can fail in subtle ways.
 
 ---
 
-# Lab Breakout #2
+# Lab Breakout #3
 
 ## Astable Multivibrator
 
 **Goal**: Build a two-transistor blinking LED oscillator.
+
+<!-- 
 
 Try:
 
@@ -495,6 +501,8 @@ Try:
 - changing resistor values
 - mismatched timing components
 - measuring blink frequency
+
+-->
 
 ![bg contain right](assets/astable-multivibrator.gif)
 
