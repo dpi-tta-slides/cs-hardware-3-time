@@ -9,8 +9,8 @@ In this lesson, participants explore how electronic circuits interact with time 
 By the end of this lesson, participants will be able to:
 
 - Explain how capacitors store and release electrical energy over time
-- Describe charging and discharging behavior in RC circuits
-- Build and analyze LED delay and fade timer circuits
+- Describe charging and discharging behavior in resistor capacitor (RC) circuits
+- Build and analyze resistor capacitor (RC) circuits
 - Measure how resistance and capacitance affect timing
 - Construct and troubleshoot an astable multivibrator oscillator
 - Explain how timing circuits relate to clocks, memory, and modern computer hardware
