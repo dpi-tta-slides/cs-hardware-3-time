@@ -16,9 +16,6 @@ By the end of today you will:
 
 - Understand what capacitors do
 - Learn how capacitors interact with time
-- Build a charge/discharge circuit
-- Build a smoothing circuit
-- Build an oscillator circuit
 - Connect timing circuits to real computer hardware
 
 ![bg contain right](assets/pcb-capacitors.jpg)
@@ -66,12 +63,11 @@ Today we add a new idea: **TIME**
 
 # Today's Workflow
 
-1. Learn what a capacitor is
-2. Observe charging and discharging
-3. Build LED fade/delay circuits
-4. Measure timing using RC circuits
-5. Build an astable multivibrator oscillator
-6. Connect oscillators to computing systems
+1. History lesson
+2. Learn what a capacitor is
+3. Build a charge/discharge circuit
+4. Build a smoothing circuit
+5. Build an oscillator circuit
 
 ![bg contain right](assets/capacitor-types.webp)
 
@@ -144,7 +140,6 @@ It didn't actually cure anything, but we still have electric therapies for depre
 
 The original Leyden jar held water as the inner conductor. Early electrical experimenters thought that the charge was held in the water. However, Benjamin Franklin was the first person to figure out that the charge in the Leyden jar is located where the insulator meets the electrode (in this case, the water). Thus, water is not required and can be replaced by attaching an electrode, such as aluminum foil, to the inside of the jar. Franklin also connected several Leyden jars together and created what he called a battery. This is not a battery like we know today, but it was a way to store lots of charge for Franklin's electrical experiments.
 
-
 # is this true?
 Franklin intuited (positive and negative charge) as a build up (and lack of) electrons. 
 
@@ -158,7 +153,6 @@ He actually mistaked that electricity flowed positive to negative (which is wron
 
 <!-- INSTRUCTOR NOTES:
 
-
 -->
 
 ---
@@ -166,7 +160,6 @@ He actually mistaked that electricity flowed positive to negative (which is wron
 # What Is A Capacitor?
 
 A capacitor stores electrical energy in an electric field.
-
 
 | Component | Energy Storage | Charge / Discharge |
 | --------- | -------------- | ------------------ |
