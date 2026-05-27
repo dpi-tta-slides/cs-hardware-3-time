@@ -4,7 +4,7 @@
 [Invention of the Leyden Jar: How a Jar of Water Shocked Thousands](https://www.youtube.com/watch?v=lN3oHY3ekSI)
 [How Benjamin Franklin Discovered the True Nature of Electricity](https://www.youtube.com/watch?v=BEvLmgYvYX8)
 [Capacitors Explained - The basics how capacitors work working principle](https://www.youtube.com/watch?v=X4EUwTwZ110)
-
+[NES Controllers Explained](https://www.youtube.com/watch?v=nAStgQzPrAQ)
 
 
 <!-- 

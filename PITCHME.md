@@ -317,25 +317,24 @@ Be careful not to short the battery or the LED
 
 ---
 
-# Demo: Capacitive Coupling
+# Demo: Capacitor Charge/Discharge Circuit
 
 <!-- ![contain](assets/rc-led-fade-out.png) -->
 
-![bg contain right](assets/capacitive-coupling-breadboard.png)
+![bg contain right](assets/charge-discharge-breadboard.png)
 
 ---
 
-# Demo: Capacitive Coupling
+# Demo: Capacitor Charge/Discharge Circuit
 
 
-![bg contain right](assets/capacitive-coupling-schematic.png)
+![bg contain right](assets/charge-discharge-schematic.png)
 
 ---
 
-# Demo: Capacitive Coupling
+# Demo: Capacitor Charge/Discharge Circuit
 
-
-![bg contain right](assets/capacitive-coupling-graph.png)
+![bg contain right](assets/charge-discharge-graph.png)
 
 <!-- INSTRUCTOR NOTES:
 
@@ -347,7 +346,9 @@ This phenomena can be helpful with amplifiers and components that require a brie
 
 # Lab Breakout #1
 
-## Capacitive Coupling Circuit
+## Capacitor Charge/Discharge Circuit
+
+![bg contain right](assets/charge-discharge-breadboard.png)
 
 ---
 
@@ -378,6 +379,8 @@ Reduce power supply ripple and dirty audio signals
 # Lab Breakout #2
 
 ## Smoothing Circuit
+
+![bg contain right](assets/smoothing-capacitor-breadboard.png)
 
 ---
 
