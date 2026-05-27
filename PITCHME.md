@@ -321,7 +321,6 @@ Be careful not to short the battery or the LED
 
 # Demo: Capacitor Charge/Discharge Circuit
 
-
 ![bg contain right](assets/charge-discharge-schematic.png)
 
 ---
