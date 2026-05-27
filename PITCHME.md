@@ -16,8 +16,9 @@ By the end of today you will:
 
 - Understand what capacitors do
 - Learn how capacitors interact with time
-- Build an LED delay and fade timer using an RC circuit
-- Build an astable multivibrator oscillator
+- Build a charge/discharge circuit
+- Build a smoothing circuit
+- Build an oscillator circuit
 - Connect timing circuits to real computer hardware
 
 ![bg contain right](assets/pcb-capacitors.jpg)
