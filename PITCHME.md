@@ -8,6 +8,8 @@ paginate: true
 
 ## Time
 
+![bg contain right](assets/big-ben.jpg)
+
 ---
 
 # Goal For Today
