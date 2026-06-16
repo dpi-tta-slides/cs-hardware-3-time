@@ -85,6 +85,10 @@ Ben Franklin was a electricity enthusiast and experimenter. Electricity was a cu
 
 ---
 
+[The TRUE Story of Ben Franklin & His Kite](https://www.youtube.com/watch?v=f0oc4gUCOQI)
+
+---
+
 ![bg contain](assets/18th-century-electricity-experiment-bildagentur-onlinetschanz.jpg)
 
 <!-- INSTRUCTOR NOTES:
