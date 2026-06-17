@@ -89,6 +89,34 @@ Ben Franklin was a electricity enthusiast and experimenter. Electricity was a cu
 
 ---
 
+![bg contain](assets/experiments-and-observations-on-electricity-ben-franklin.jpg)
+
+<!-- INSTRUCTOR NOTES
+
+Benjamin Franklin's Experiments and Observations on Electricity (first published in 1751 and expanded in later editions) was one of the most influential scientific books of the 18th century. It helped transform electricity from a curiosity into a serious field of scientific study.
+
+Why it was important
+
+Made Franklin internationally famous as a scientist
+Before this work, Franklin was best known as a printer and writer.
+
+The book was widely read in Europe and earned him recognition from scientific organizations, including the Royal Society.
+Helped establish modern electrical terminology
+Franklin introduced or popularized terms such as:
+positive and negative electrical charge
+battery (for a group of charged objects)
+charge
+conductor
+
+These concepts are still fundamental to physics today.
+Presented a unified theory of electricity
+Franklin proposed that electricity was a single "fluid" that could be present in excess or deficiency.
+Although the fluid theory itself was later replaced, the idea of conservation of electric charge was an important step toward modern understanding.
+
+-->
+
+---
+
 ![bg contain](assets/18th-century-electricity-experiment-bildagentur-onlinetschanz.jpg)
 
 <!-- INSTRUCTOR NOTES:
